@@ -43,7 +43,8 @@
     margin-top: 15px;
 }
 .suggestion .suggestion__icon {
-    background-color: #fce006;
+    /* background-color: #fce006; */
+    background-color: #61d1c4;;
     padding: 10px;
     padding: 10px;
     border-radius: 10px;
