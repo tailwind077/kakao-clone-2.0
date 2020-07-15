@@ -9,15 +9,20 @@
 </head>
 <body>
     <div class="status-bar">
+        <div class="staus-bar__colunm">
+            <i class="fas fa-signal"></i>
+            <span class="status-bar__telecom">LGU</span>
+            <i class="fas fa-wifi"></i>
+        </div>
         <div class="status-bar__column">
-            <span class="status-bar__clock">13:53</span>
+            <span class="status-bar__clock">15:53 PM</span>
         </div>
         <div class="status-bar__column">
             <i class="fas fa-clock"></i>
-            <i class="fas fa-volume-mute"></i>
-            <i class="fas fa-wifi"></i>
-            <span class="status-bar__battery-level">100%</span>
-            <i class="fas fa-battery-full"></i>
+            <!-- <i class="fas fa-volume-mute"></i> -->
+            <i class="fas fa-location-arrow"></i>
+            <span class="status-bar__battery-level">86%</span>
+            <i class="fas fa-battery-three-quarters battery"></i>
         </div>
     </div>
 
@@ -27,10 +32,13 @@
         </div>
         <div class="header__header-column">
             <span class="header__icon">
-                <i class="fas fa-search"></i>
+               <a href="find.html"> <i class="fas fa-search"></i></a>
             </span>
             <span class="header__icon">
-                <i class="fas fa-qrcode"></i>
+                <a href="#"><i class="fas fa-qrcode"></i></a>
+            </span>
+            <span class="header__icon">
+                <a href="#"><i class="fas fa-music"></i></a>
             </span>
             <span class="header__icon">
                 <a href="settings.html"><i class="fas fa-cog"></i></a>
@@ -45,15 +53,16 @@
                     <img src="images/avatar.jpg" alt="" class="g-avatar friend__avatar">
                     <div class="friend__content">
                         <span class="friend__name">
-                            Nicolas serrano
+                            Sujan
                         </span>
                         <span class="friend__status">
-                            adbd@gamil.com
+                            adbdor@gamil.com
                         </span>
                     </div>
                 </div>
                 <div class="friend__column">
-                    <i class="far fa-comment-alt fa-2x"></i>
+                    <span class="friend__my">MY</span>
+                    <span class="friend__poocon"><i class="fas fa-poo"></i> 10</span>
                 </div>
             </div>
             <ul class="more__btn-list">
@@ -71,9 +80,15 @@
                 </li>
                 <li class="more__btn">
                     <span class="more__btn-icon">
-                        <i class="fab fa-kickstarter-k fa-2x"></i>
+                        <i class="fas fa-file-invoice-dollar fa-2x"></i>
                     </span>
                     <span class="more__btn-title">Account</span>
+                </li>
+                <li class="more__btn">
+                    <span class="more__btn-icon">
+                        <i class="fas fa-envelope fa-2x"></i>
+                    </span>
+                    <span class="more__btn-title">Mail</span>
                 </li>
             </ul>
         </header>
@@ -104,6 +119,46 @@
                         Friends Gem
                     </span>
                 </li>
+                <li class="more_suggestion suggestion">
+                    <span class="suggestion__icon">
+                        <i class="fas fa-gift fa-2x"></i>
+                    </span>
+                    <span class="suggestion__title">
+                        Gifts
+                    </span>
+                </li>
+                <li class="more_suggestion suggestion">
+                    <span class="suggestion__icon">
+                        <i class="fas fa-tshirt fa-2x"></i>
+                    </span>
+                    <span class="suggestion__title">
+                        Styles
+                    </span>
+                </li>
+                <li class="more_suggestion suggestion">
+                    <span class="suggestion__icon">
+                        <i class="fas fa-shopping-bag "></i>
+                    </span>
+                    <span class="suggestion__title">
+                        Shopping
+                    </span>
+                </li>
+                <li class="more_suggestion suggestion">
+                    <span class="suggestion__icon">
+                        <i class="fas fa-ticket-alt fa-2x"></i>
+                    </span>
+                    <span class="suggestion__title">
+                        Ticket
+                    </span>
+                </li>
+                <li class="more_suggestion suggestion">
+                    <span class="suggestion__icon">
+                        <i class="fab fa-app-store-ios fa-2x"></i>
+                    </span>
+                    <span class="suggestion__title">
+                        Apps
+                    </span>
+                </li>
             </ul>
         </section>
     </main>
@@ -112,11 +167,12 @@
         <ul class="nav__list">
             <li class="nav__list-item"><a href="friends.html" class="nav__list-link">
                 <i class="far fa-user"></i></a></li>
-            <li class="nav__list-item"><a href="index.html" class="nav__list-link">
-                <i class="far fa-comment"></i>
-            </a></li>
-            <li class="nav__list-item"><a href="find.html" class="nav__list-link">
-                <i class="fas fa-search"></i>
+                <li class="nav__list-item"><a href="index.html" class="nav__list-link">
+                    <div class="nav__badge">8</div>
+                    <i class="far fa-comment"></i>
+                </a></li>
+            <li class="nav__list-item"><a href="#" class="nav__list-link">
+                <i class="fas fa-hashtag"></i>
             </a></li>
             <li class="nav__list-item"><a href="more.html" class="nav__list-link">
                 <i class="fas fa-ellipsis-h"></i>

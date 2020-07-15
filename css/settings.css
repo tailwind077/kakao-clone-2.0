@@ -12,7 +12,22 @@
 }
 .settings .settings__setting {
     margin-bottom: 30px;
+    display: flex;
+    align-items: center;
 }
 .settings .settings__setting:last-child {
     margin-bottom: 0;
+}
+.settings .settings__setting .new {
+    background-color: #f1563a;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    color: #fff;
+    font-weight: 700;
+    font-size: 8px;
+    margin-left: 5px;
 }

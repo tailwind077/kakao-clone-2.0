@@ -9,15 +9,20 @@
 </head>
 <body>
     <div class="status-bar">
+        <div class="staus-bar__colunm">
+            <i class="fas fa-signal"></i>
+            <span class="status-bar__telecom">LGU</span>
+            <i class="fas fa-wifi"></i>
+        </div>
         <div class="status-bar__column">
-            <span class="status-bar__clock">13:53</span>
+            <span class="status-bar__clock">15:53 PM</span>
         </div>
         <div class="status-bar__column">
             <i class="fas fa-clock"></i>
-            <i class="fas fa-volume-mute"></i>
-            <i class="fas fa-wifi"></i>
-            <span class="status-bar__battery-level">100%</span>
-            <i class="fas fa-battery-full"></i>
+            <!-- <i class="fas fa-volume-mute"></i> -->
+            <i class="fas fa-location-arrow"></i>
+            <span class="status-bar__battery-level">86%</span>
+            <i class="fas fa-battery-three-quarters battery"></i>
         </div>
     </div>
 
@@ -27,10 +32,16 @@
         </div>
         <div class="header__header-column">
             <span class="header__icon">
-                <i class="fas fa-search"></i>
+                <a href="find.html"><i class="fas fa-search"></i></a>
             </span>
             <span class="header__icon">
-                <i class="fas fa-cog"></i>
+                <a href="#"><i class="fas fa-user-plus"></i></a>
+            </span>   
+            <span class="header__icon">
+                <a href="#"><i class="fas fa-music"></i></a>
+            </span>  
+            <span class="header__icon">
+                <a href="settings.html"><i class="fas fa-cog"></i></a>
             </span>
         </div>
     </header>
@@ -42,23 +53,33 @@
                     <img src="images/avatar.jpg" alt="" class="g-avatar friend__avatar">
                     <div class="friend__content">
                         <span class="friend__name">
-                            Nicolas serrano
+                            Sujan
                         </span>
                         <span class="friend__status">
-                            nomadcoder.co
+                            Let's have a cool summer :)
                         </span>
                     </div>
                 </div>
             </div>
         </header>
         <div class="friends__plus">
-            <h5 class="friends__title">Plusfriend</h5>
+            <h5 class="friends__title">Channel</h5>
             <div class="friends__friend friend">
                 <div class="friend__column">
-                    <img src="images/avatar.jpg" alt="" class="friend__avatar">
+                    <span class="friend__channel-icon"><i class="fab fa-android"></i></span>
                     <div class="friend__content">
                         <span class="friend__name">
-                            Plus Friend
+                            Channel
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="friends__friend friend">
+                <div class="friend__column">
+                    <img src="images/pilates_ad.jpg" alt="" class="friend__avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            필라테스집에서하세요. <span class="friend__name-ad">AD</span>
                         </span>
                     </div>
                 </div>
@@ -68,13 +89,41 @@
             <h5 class="friends__title">Friends 14</h5>
             <li class="friends__friend friend friend--lg">
                 <div class="friend__column">
-                    <img src="images/avatar.jpg" class="friend__avatar">
+                    <img src="images/friend1.jpg" class="friend__avatar">
                     <div class="friend__content">
                         <span class="friend__name">
-                            Nicolas serrano
+                            Charles
                         </span>
                         <span class="friend__status">
-                            nomadcoder.co
+                            I can now and forever 
+                        </span>
+                    </div>
+                </div>
+                <div class="friend__column"></div>
+            </li>
+            <li class="friends__friend friend friend--lg">
+                <div class="friend__column">
+                    <img src="images/friend2.jpg" class="friend__avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            sunny
+                        </span>
+                        <span class="friend__status">
+                            cheer up
+                        </span>
+                    </div>
+                </div>
+                <div class="friend__column"></div>
+            </li>
+            <li class="friends__friend friend friend--lg">
+                <div class="friend__column">
+                    <img src="images/friend3.jpg" class="friend__avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            jackson
+                        </span>
+                        <span class="friend__status">
+                            in lapidem - 돌처럼
                         </span>
                     </div>
                 </div>
@@ -87,6 +136,76 @@
                     </div>
                 </div>
             </li>
+            <li class="friends__friend friend friend--lg">
+                <div class="friend__column">
+                    <img src="images/friend4.jpg" class="friend__avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            Asher
+                        </span>
+                        <span class="friend__status">
+                            ars longa, vita brevis
+                        </span>
+                    </div>
+                </div>
+                <div class="friend__column"></div>
+            </li>
+            <li class="friends__friend friend friend--lg">
+                <div class="friend__column">
+                    <img src="images/friend5.jpg" class="friend__avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            Benjamin
+                        </span>
+                        <span class="friend__status">
+                            <i class="fas fa-medal"></i><i class="fas fa-hand-spock"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="friend__column"></div>
+            </li>
+            <li class="friends__friend friend friend--lg">
+                <div class="friend__column">
+                    <img src="images/friend6.jpg" class="friend__avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            Dylan
+                        </span>
+                        <span class="friend__status">
+                            If you laugh, blessings will come your way.
+                        </span>
+                    </div>
+                </div>
+                <div class="friend__column"></div>
+            </li>
+            <li class="friends__friend friend friend--lg">
+                <div class="friend__column">
+                    <img src="images/friend7.jpg" class="friend__avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            Fabian
+                        </span>
+                        <span class="friend__status">
+                            ㅠㅠ
+                        </span>
+                    </div>
+                </div>
+                <div class="friend__column"></div>
+            </li>
+            <li class="friends__friend friend friend--lg">
+                <div class="friend__column">
+                    <img src="images/friend8.jpg" class="friend__avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            Hendrix
+                        </span>
+                        <span class="friend__status">
+                            Don’t judge a book by its cover.
+                        </span>
+                    </div>
+                </div>
+                <div class="friend__column"></div>
+            </li>
         </ul>
     </main>
 
@@ -94,11 +213,13 @@
         <ul class="nav__list">
             <li class="nav__list-item"><a href="friends.html" class="nav__list-link">
                 <i class="fas fa-user"></i></a></li>
-            <li class="nav__list-item"><a href="index.html" class="nav__list-link">
-                <i class="far fa-comment"></i>
-            </a></li>
-            <li class="nav__list-item"><a href="find.html" class="nav__list-link">
-                <i class="fas fa-search"></i>
+                <li class="nav__list-item"><a href="index.html" class="nav__list-link">
+                    <div class="nav__badge">8</div>
+                    <i class="far fa-comment"></i>
+                </a></li>
+            <li class="nav__list-item"><a href="#" class="nav__list-link">
+                <!-- <i class="fas fa-search"></i> -->
+                <i class="fas fa-hashtag"></i>
             </a></li>
             <li class="nav__list-item"><a href="more.html" class="nav__list-link">
                 <i class="fas fa-ellipsis-h"></i>
