@@ -9,15 +9,20 @@
 </head>
 <body>
     <div class="status-bar">
+        <div class="staus-bar__colunm">
+            <i class="fas fa-signal"></i>
+            <span class="status-bar__telecom">LGU</span>
+            <i class="fas fa-wifi"></i>
+        </div>
         <div class="status-bar__column">
-            <span class="status-bar__clock">13:53</span>
+            <span class="status-bar__clock">15:53 PM</span>
         </div>
         <div class="status-bar__column">
             <i class="fas fa-clock"></i>
-            <i class="fas fa-volume-mute"></i>
-            <i class="fas fa-wifi"></i>
-            <span class="status-bar__battery-level">100%</span>
-            <i class="fas fa-battery-full"></i>
+            <!-- <i class="fas fa-volume-mute"></i> -->
+            <i class="fas fa-location-arrow"></i>
+            <span class="status-bar__battery-level">86%</span>
+            <i class="fas fa-battery-three-quarters battery"></i>
         </div>
     </div>
 
@@ -26,12 +31,10 @@
             <h1 class="header__title">Find</h1>
         </div>
         <div class="header__header-column">
-            <span class="header__icon">
+            <input class="find__write" type="text" placeholder="Search" class="find__write-input">
+             <div class="find__icon-left">
                 <i class="fas fa-search"></i>
-            </span>
-            <span class="header__icon">
-                <i class="fas fa-cog"></i>
-            </span>
+             </div>
         </div>
     </header>
 
@@ -76,10 +79,130 @@
             <h5 class="find__title">Recommended Friend</h5>
             <li class="find__friend friend friend--lg">
                 <div class="friend__column">
-                    <img src="images/avatar.jpg" alt="" class="friend__avatar">
+                    <img src="images/recommend_f1.jpg" alt="" class="friend__avatar">
                     <div class="friend__content">
                         <span class="friend__name">
-                            Nicolas serrano
+                            Carrie
+                        </span>
+                    </div>
+                </div>
+                <div class="friend__column">
+                    <div class="friend__add-btn">
+                        <i class="fas fa-user-plus"></i>                       
+                    </div>
+                </div>
+            </li>
+            <li class="find__friend friend friend--lg">
+                <div class="friend__column">
+                    <img src="images/recommend_f2.jpg" alt="" class="friend__avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            Dorothy(도로시)
+                        </span>
+                    </div>
+                </div>
+                <div class="friend__column">
+                    <div class="friend__add-btn">
+                        <i class="fas fa-user-plus"></i>                       
+                    </div>
+                </div>
+            </li>
+            <li class="find__friend friend friend--lg">
+                <div class="friend__column">
+                    <img src="images/recommend_f3.jpg" alt="" class="friend__avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            Samuel ~~
+                        </span>
+                    </div>
+                </div>
+                <div class="friend__column">
+                    <div class="friend__add-btn">
+                        <i class="fas fa-user-plus"></i>                       
+                    </div>
+                </div>
+            </li>
+            <li class="find__friend friend friend--lg">
+                <div class="friend__column">
+                    <img src="images/recommend_f4.jpg" alt="" class="friend__avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            William
+                        </span>
+                    </div>
+                </div>
+                <div class="friend__column">
+                    <div class="friend__add-btn">
+                        <i class="fas fa-user-plus"></i>                       
+                    </div>
+                </div>
+            </li>
+            <li class="find__friend friend friend--lg">
+                <div class="friend__column">
+                    <img src="images/recommend_f5.jpg" alt="" class="friend__avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            Edward 화이팅!!
+                        </span>
+                    </div>
+                </div>
+                <div class="friend__column">
+                    <div class="friend__add-btn">
+                        <i class="fas fa-user-plus"></i>                       
+                    </div>
+                </div>
+            </li>
+            <li class="find__friend friend friend--lg">
+                <div class="friend__column">
+                    <img src="images/recommend_f6.jpg" alt="" class="friend__avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            Margaret Weak things united become strong.
+                        </span>
+                    </div>
+                </div>
+                <div class="friend__column">
+                    <div class="friend__add-btn">
+                        <i class="fas fa-user-plus"></i>                       
+                    </div>
+                </div>
+            </li>
+            <li class="find__friend friend friend--lg">
+                <div class="friend__column">
+                    <img src="images/recommend_f7.jpg" alt="" class="friend__avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            Elizabeth
+                        </span>
+                    </div>
+                </div>
+                <div class="friend__column">
+                    <div class="friend__add-btn">
+                        <i class="fas fa-user-plus"></i>                       
+                    </div>
+                </div>
+            </li>
+            <li class="find__friend friend friend--lg">
+                <div class="friend__column">
+                    <img src="images/recommend_f8.jpg" alt="" class="friend__avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            윤지니 Faith without deeds is useless.
+                        </span>
+                    </div>
+                </div>
+                <div class="friend__column">
+                    <div class="friend__add-btn">
+                        <i class="fas fa-user-plus"></i>                       
+                    </div>
+                </div>
+            </li>
+            <li class="find__friend friend friend--lg">
+                <div class="friend__column">
+                    <img src="images/recommend_f9.jpg" alt="" class="friend__avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            엘리's soul -'your capacity to enjoy life'
                         </span>
                     </div>
                 </div>
@@ -99,8 +222,8 @@
             <li class="nav__list-item"><a href="index.html" class="nav__list-link">
                 <i class="far fa-comment"></i>
             </a></li>
-            <li class="nav__list-item"><a href="find.html" class="nav__list-link">
-                <i class="fas fa-search"></i>
+            <li class="nav__list-item"><a href="#" class="nav__list-link">
+                <i class="fas fa-hashtag"></i>
             </a></li>
             <li class="nav__list-item"><a href="more.html" class="nav__list-link">
                 <i class="fas fa-ellipsis-h"></i>

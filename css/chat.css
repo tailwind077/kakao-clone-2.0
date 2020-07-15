@@ -1,22 +1,24 @@
-.header-wrapper {
-    background-color: #fff;
-    padding: 5px 0;
-    position: fixed;
-    width: 100%;
-    left: 0;
-    top: 0;
-    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
-    z-index: 100;
-}
 .chats-body {
-    padding: 148px 0 10px;
-    background-image: url("../images/bananasabg.png");
     min-height: 300vh;
-    
+    background-image: url(/images/bananasabg.png);
+    background-position: 10% 10%;
 }
-.chats-body .header,
-.chats-body .status-bar {
-    padding: 10px 20px;
+.chats-body .chat-status-bar {
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.7;
+    width: 100%;
+}
+.chat-status-bar i {
+    font-size: 14px;
+}
+.chat-status-bar .battery {
+    font-size: 17px;
+}
+.chat-status-bar .status-bar__battery-level {
+    font-size: 13px;
+    /* margin-left: 7px; */
 }
 .chat_write-container {
     position: fixed;
@@ -30,6 +32,9 @@
     /* background-color: #fcfcfc; */
     width: 100%;
     /* box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2); */
+}
+.chat_write-container input {
+    border: 1px solid #73ebdd;
 }
 .chat__icon-left {
     position: absolute;
@@ -56,7 +61,6 @@
     width: 100%;
     border-radius: 0px;
     padding: 10px 60px;
-    width: 100%;
     border: none;
     font-size: 14px;    
     transition: width 0.5s ease-in, border-radius 0.5s ease-in, transform 0.5s ease-in;
@@ -141,12 +145,14 @@
     /* box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
       0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025); */
     padding: 10px 20px;
-    border-radius: 20px;
+    border-radius: 66% 55% 53% 39%;
     color: white;
     font-weight: 600;
     display: block;
 }
-.incoming-message .message__author {
+.incoming-message .message__author,
+.incoming-message .message__time,
+.sent-message .message__time {
     margin-top: 15px;
     display: block;
     font-weight: 600;
@@ -154,11 +160,11 @@
 }
 .incoming-message .message__bubble {
     background-color: rgb(255, 254, 241);
-    border-bottom-left-radius: 0px;
+    border-bottom-left-radius: 47%;
     color: rgb(63, 63, 63);
 }
 .sent-message .message__bubble {
-    border-bottom-right-radius: 0px;
+    border-bottom-right-radius: 47%;
     background-color: rgb(255, 229, 79);
     color: rgb(63, 63, 63);
 }
@@ -188,4 +194,10 @@
 }
 .sent-message {
     animation: sentAnim 0.5s ease-out forwards;
+}
+.chat_write-container input:focus::placeholder {
+    visibility: hidden;
+}
+.chat_write-container input:focus {
+    border: 3px solid #73ebdd;
 }

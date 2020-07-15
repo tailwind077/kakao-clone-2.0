@@ -9,21 +9,26 @@
 </head>
 <body>
     <div class="status-bar">
+        <div class="staus-bar__colunm">
+            <i class="fas fa-signal"></i>
+            <span class="status-bar__telecom">LGU</span>
+            <i class="fas fa-wifi"></i>
+        </div>
         <div class="status-bar__column">
-            <span class="status-bar__clock">13:53</span>
+            <span class="status-bar__clock">15:53 PM</span>
         </div>
         <div class="status-bar__column">
             <i class="fas fa-clock"></i>
-            <i class="fas fa-volume-mute"></i>
-            <i class="fas fa-wifi"></i>
-            <span class="status-bar__battery-level">100%</span>
-            <i class="fas fa-battery-full"></i>
+            <!-- <i class="fas fa-volume-mute"></i> -->
+            <i class="fas fa-location-arrow"></i>
+            <span class="status-bar__battery-level">86%</span>
+            <i class="fas fa-battery-three-quarters battery"></i>
         </div>
     </div>
 
     <header class="header">
         <div class="header__header-column">
-            <a href="more.html" class="header_back-btn"><i class="fas fa-arrow-left"></i></a>
+            <a href="more.html" class="header_back-btn"><i class="fas fa-chevron-left"></i></a>
             <h1 class="header__title">settings</h1>
         </div>
         <div class="header__header-column">
@@ -38,21 +43,22 @@
             <ul class="settings__list">
                 <li class="settings__setting">
                     <span class="settings__icon">
-                        <i class="fas fa-lock"></i>
+                        <i class="fas fa-bullhorn"></i>
                     </span>
-                    <span class="settings__title">Privacy</span>
+                    <span class="settings__title">Notice</span>
                 </li>
                 <li class="settings__setting">
                     <span class="settings__icon">
-                        <i class="far fa-bell"></i>
+                        <i class="fas fa-flask"></i>
                     </span>
-                    <span class="settings__title">Notifications</span>
+                    <span class="settings__title">Kakako Lab</span>
+                    <span class="new">N</span>
                 </li>
                 <li class="settings__setting">
                     <span class="settings__icon">
-                        <i class="far fa-user"></i>
+                        <i class="fas fa-exclamation-circle"></i>
                     </span>
-                    <span class="settings__title">Friends</span>
+                    <span class="settings__title">Version</span>
                 </li>
             </ul>
         </section>
@@ -69,6 +75,7 @@
                         <i class="far fa-bell"></i>
                     </span>
                     <span class="settings__title">Notifications</span>
+                    <span class="new">N</span>
                 </li>
                 <li class="settings__setting">
                     <span class="settings__icon">
@@ -76,9 +83,37 @@
                     </span>
                     <span class="settings__title">Friends</span>
                 </li>
+                <li class="settings__setting">
+                    <span class="settings__icon">
+                        <i class="fas fa-adjust"></i>
+                    </span>
+                    <span class="settings__title">Display</span>
+                </li>
+                <li class="settings__setting">
+                    <span class="settings__icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </span>
+                    <span class="settings__title">call</span>
+                </li>
             </ul>
         </section>
     </main>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__list-item"><a href="friends.html" class="nav__list-link">
+                <i class="far fa-user"></i></a></li>
+            <li class="nav__list-item"><a href="index.html" class="nav__list-link">
+                <div class="nav__badge">8</div>
+                <i class="far fa-comment"></i>
+            </a></li>
+            <li class="nav__list-item"><a href="#" class="nav__list-link">
+                <i class="fas fa-hashtag"></i>
+            </a></li>
+            <li class="nav__list-item"><a href="more.html" class="nav__list-link">
+                <i class="fa fa-ellipsis-h"></i>
+            </a></li>
+        </ul>
+    </nav>
     <div class="bigscreen">
         <span class="bigscreen__text">Please make your screen small! <i class="far fa-sad-tear"></i><i class="fas fa-sad-cry"></i></span>
     </div>

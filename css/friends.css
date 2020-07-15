@@ -8,5 +8,29 @@
 .friends__list .friends__title {
     font-size: 14px;
     opacity: 0.6;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
+}
+.friends__friend {
+    margin: 10px 0 0;
+}
+.friend__column .friend__channel-icon {
+    background-color: #81eee1;
+    padding: 10px;
+    border-radius: 56% 62% 49%;
+    font-size: 25px;
+    margin-right: 18px;
+}
+.friend__column .friend__name .friend__name-ad {
+    border: 1px solid #bbbbbb;
+    font-size: 11px;
+    color: #bbbbbb;
+    padding: 0 3px;
+    border-radius: 10px;
+}
+.chats__chat {
+    margin-bottom: 20px;
+}
+.message__content-column {
+    display: flex;
+    justify-content: space-between;
 }
