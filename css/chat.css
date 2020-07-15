@@ -1,6 +1,6 @@
 .chats-body {
     min-height: 300vh;
-    background-image: url(/images/bananasabg.png);
+    background-image: url(images/bananasabg.png);
     background-position: 10% 10%;
 }
 .chats-body .chat-status-bar {
